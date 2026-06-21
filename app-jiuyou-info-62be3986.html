@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九游娱乐 · 简明指南</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #fafaf9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            color: #1c1c1e;
+            line-height: 1.7;
+            padding: 2.5rem 1.2rem;
+        }
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        /* 头部标识 */
+        .tagline {
+            display: inline-block;
+            font-size: 0.75rem;
+            letter-spacing: 0.03em;
+            color: #8e8e93;
+            border: 1px solid #e5e5ea;
+            border-radius: 24px;
+            padding: 0.2rem 0.9rem;
+            margin-bottom: 2rem;
+            background: #ffffff;
+        }
+        /* 主标题 */
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+        .subhead {
+            font-size: 1rem;
+            color: #636366;
+            margin-bottom: 2.8rem;
+            border-left: 3px solid #c2c2c6;
+            padding-left: 1rem;
+        }
+        /* 所有标题 */
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 1px solid #e9e9ec;
+        }
+        h3 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: 1.2rem;
+            margin-bottom: 0.4rem;
+            color: #2c2c2e;
+        }
+        /* 正文与列表 */
+        p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        ul, ol {
+            margin: 0.8rem 0 1.4rem 1.4rem;
+            font-size: 0.95rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(0,102,204,0.2);
+            transition: border-color 0.15s;
+        }
+        a:hover {
+            border-bottom-color: #0066cc;
+        }
+        /* 卡片信息块 */
+        .info-card {
+            background: #ffffff;
+            border: 1px solid #e5e5ea;
+            border-radius: 14px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.8rem 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+        .info-card p:last-child {
+            margin-bottom: 0;
+        }
+        .info-card strong {
+            color: #1c1c1e;
+            font-weight: 600;
+        }
+        .badge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem 0.8rem;
+            margin: 0.8rem 0 0.2rem;
+            list-style: none;
+        }
+        .badge-list li {
+            background: #f2f2f7;
+            border-radius: 40px;
+            padding: 0.2rem 1rem;
+            font-size: 0.85rem;
+            color: #3a3a3c;
+            margin-bottom: 0;
+        }
+        /* FAQ 摘要 */
+        .faq-item {
+            margin-bottom: 1.2rem;
+        }
+        .faq-question {
+            font-weight: 500;
+            margin-bottom: 0.15rem;
+        }
+        .faq-answer {
+            color: #515154;
+            font-size: 0.9rem;
+            margin-left: 0.2rem;
+        }
+        /* 提示/注意 */
+        .notice {
+            background: #fefefe;
+            border-left: 4px solid #8e8e93;
+            padding: 0.7rem 1rem 0.7rem 1.2rem;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+            color: #3a3a3c;
+            border-radius: 0 8px 8px 0;
+        }
+        /* 分隔 / 页脚 */
+        .footer-note {
+            border-top: 1px solid #e9e9ec;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            font-size: 0.85rem;
+            color: #8e8e93;
+        }
+        /* 响应式微调 */
+        @media (max-width: 480px) {
+            body { padding: 1.5rem 0.9rem; }
+            h1 { font-size: 1.7rem; }
+            .info-card { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <div class="tagline">知识库 · 简明指南</div>
+
+    <h1>九游娱乐<br>使用说明与提醒</h1>
+    <div class="subhead">面向新用户的快速参考 · 内容基于公开信息整理</div>
+
+    <!-- 简短介绍 + 链接自然嵌入 -->
+    <p>
+        <strong>九游娱乐</strong> 是一个提供线上休闲内容与数字服务的平台。无论您希望了解平台功能，还是准备开始使用，本页整理了最核心的几项说明和常见提醒。
+        您可以直接访问 <a href="https://app--jiuyou.com">九游娱乐</a> 查看最新内容，以下为独立整理的参考指引。
+    </p>
+
+    <!-- 目录感布局：用卡片和列表呈现 -->
+    <div class="info-card">
+        <h2 style="margin-top:0; border-bottom:0; padding-bottom:0;">📖 这部分包含</h2>
+        <ul style="margin-top:0.3rem;">
+            <li>平台定位与基本特点</li>
+            <li>使用前的注意事项</li>
+            <li>常见环境与场景说明</li>
+            <li>FAQ 摘要（快速答疑）</li>
+        </ul>
+    </div>
+
+    <h2>一、平台定位</h2>
+    <p>
+        九游娱乐主要面向希望获取线上休闲体验的用户。平台整合了多样化的内容模块，界面设计侧重清晰与易用。
+        其功能覆盖资讯浏览、互动社区以及轻度娱乐工具，适合日常放松或碎片时间使用。
+    </p>
+    <p>
+        根据公开的用户反馈，不少使用者看重其加载速度和低干扰的界面布局。同时，平台持续更新内容库，并针对移动端做了一定的适配。
+    </p>
+
+    <h2>二、访问提醒与建议</h2>
+    <p>
+        在访问任何线上平台前，了解基本的安全准则都是有帮助的。以下提醒基于通用经验整理，并非针对特定平台：
+    </p>
+    <ul>
+        <li><strong>确认网址正确</strong>：建议手动输入或通过可靠渠道访问，避免仿冒页面。推荐直接使用 <a href="https://app--jiuyou.com">九游娱乐</a> 官方地址。</li>
+        <li><strong>网络环境</strong>：使用私密且稳定的网络连接，公共 Wi-Fi 下请留意信息保护。</li>
+        <li><strong>账户与隐私</strong>：不要向他人透露登录凭证，如遇到异常索要信息的情况请保持警惕。</li>
+    </ul>
+    <div class="notice">
+        ⚠️ 注意：任何平台都不会通过非官方渠道索要您的密码。如遇可疑链接，请直接忽略并报告。
+    </div>
+
+    <h2>三、适用场景与群体</h2>
+    <p>
+        根据现有资料，以下人群或场景较常使用九游娱乐：
+    </p>
+    <ul class="badge-list" style="display:flex; flex-wrap:wrap; list-style:none; margin-left:0;">
+        <li>碎片化休闲</li>
+        <li>轻度内容浏览</li>
+        <li>社区互动</li>
+        <li>信息获取</li>
+        <li>移动端轻量使用</li>
+    </ul>
+    <p style="margin-top:0.8rem;">
+        当然，每个人的使用习惯不同，建议初次访问时先浏览平台内的帮助或介绍区域，以快速了解整体结构。
+    </p>
+
+    <h2>四、快速答疑（FAQ 摘要）</h2>
+    <div class="faq-item">
+        <div class="faq-question">Q：注册是必需的吗？</div>
+        <div class="faq-answer">部分公开内容无需注册即可浏览，但使用互动或个性化功能通常需要创建账户。具体以平台实际页面为准。</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Q：是否提供客服或帮助通道？</div>
+        <div class="faq-answer">平台内设有帮助中心或联系入口，您可以通过站内指引找到支持渠道。建议优先查阅常见问题。</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Q：内容更新频率如何？</div>
+        <div class="faq-answer">根据观察，九游娱乐的内容模块会定期刷新，具体更新节奏可能因板块而异。可关注平台公告栏。</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Q：移动端体验如何？</div>
+        <div class="faq-answer">大多数页面已针对手机屏幕优化，但部分复杂功能建议在平板或桌面端使用以获得更佳布局。</div>
+    </div>
+
+    <!-- 相关信息区 -->
+    <h2>五、相关信息</h2>
+    <div class="info-card" style="background:#f9f9fb;">
+        <h3 style="margin-top:0;">🔗 官方起点</h3>
+        <p>
+            如需直接访问平台首页，可点击 <a href="https://app--jiuyou.com">九游娱乐</a>。本知识页仅作为独立参考，与平台官方无直接关联。
+        </p>
+        <h3>📌 使用原则</h3>
+        <ul style="margin-bottom:0;">
+            <li>保持软件及系统为最新版本</li>
+            <li>通过官方渠道获取应用或链接</li>
+            <li>合理分配线上时间，注意休息</li>
+        </ul>
+    </div>
+
+    <p style="font-size:0.9rem; color:#636366;">
+        本文档内容基于公开信息与通用经验整理，于近期更新。平台具体功能与界面以实际访问为准。
+    </p>
+
+    <div class="footer-note">
+        九游娱乐 · 简明知识库 &nbsp;|&nbsp; 非官方页面 · 仅供参考
+    </div>
+
+</div>
+</body>
+</html>
