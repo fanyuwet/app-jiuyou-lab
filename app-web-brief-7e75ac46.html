@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>竞彩网 · 站点介绍</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: #fafbfc;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: #1e293b;
+      line-height: 1.7;
+      padding: 2rem 1.5rem 4rem;
+    }
+    .page-wrapper {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    /* 标题层级 */
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 550;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      color: #0f172a;
+    }
+    .subhead {
+      font-size: 1.05rem;
+      color: #475569;
+      margin-bottom: 2.5rem;
+      border-left: 4px solid #94a3b8;
+      padding-left: 1rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin: 2.8rem 0 1.2rem 0;
+      color: #1e293b;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 0.4rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin: 1.6rem 0 0.6rem 0;
+      color: #334155;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1rem;
+      color: #334155;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s;
+    }
+    a:hover {
+      border-bottom-color: #2563eb;
+    }
+
+    /* 卡片 & 区块 */
+    .info-card {
+      background: #ffffff;
+      padding: 1.6rem 1.8rem;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.03);
+      margin: 1.8rem 0;
+      border: 1px solid #edf2f7;
+    }
+
+    .info-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin: 1.2rem 0 1.8rem;
+    }
+    .feature-item {
+      background: #ffffff;
+      padding: 1.2rem 1.4rem;
+      border-radius: 10px;
+      border: 1px solid #eef2f6;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    }
+    .feature-item strong {
+      display: block;
+      font-weight: 550;
+      color: #0f172a;
+      margin-bottom: 0.2rem;
+    }
+    .feature-item span {
+      font-size: 0.95rem;
+      color: #475569;
+    }
+
+    .faq-item {
+      margin-bottom: 1.2rem;
+    }
+    .faq-item strong {
+      display: block;
+      font-weight: 500;
+      color: #0f172a;
+      margin-bottom: 0.2rem;
+    }
+
+    .notice-box {
+      background: #f8fafc;
+      border-left: 4px solid #64748b;
+      padding: 1rem 1.5rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.8rem 0;
+      font-size: 0.95rem;
+      color: #334155;
+    }
+
+    .footer-note {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e2e8f0;
+      font-size: 0.9rem;
+      color: #64748b;
+      text-align: center;
+    }
+
+    /* 响应式 */
+    @media (max-width: 600px) {
+      body { padding: 1.5rem 1rem 3rem; }
+      h1 { font-size: 1.8rem; }
+      .feature-grid { grid-template-columns: 1fr; }
+      .info-card { padding: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+  <h1>竞彩网 · 站点介绍</h1>
+  <div class="subhead">知识库式信息页 · 关于平台定位与使用说明</div>
+
+  <!-- 介绍区 -->
+  <section>
+    <h2>关于竞彩网</h2>
+    <p>
+      <a href="https://app-web-sporttery.com">竞彩网</a> 是一个面向体育赛事竞猜的综合信息平台，为注册用户提供赛事数据、赔率参考及投注通道。平台覆盖足球、篮球等主流联赛及杯赛，数据更新频次较高，方便用户及时了解对阵与指数变化。
+    </p>
+    <p>
+      网站内设「赛事中心」「数据统计」「玩法说明」等板块，整体结构清晰。用户可通过网页端或适配移动设备访问，操作流程相对简洁。以下内容整理自平台公开信息及用户常见疑问，供初次接触者参考。
+    </p>
+  </section>
+
+  <!-- 说明区：可信说明 -->
+  <section>
+    <h2>可信说明</h2>
+    <div class="info-card">
+      <p><strong>运营主体</strong>：竞彩网由具备合法资质的体育竞技服务公司运营，网站底部公示了相关备案与许可证编号，用户可自行核实。</p>
+      <p><strong>数据来源</strong>：赔率及赛程数据整合自多家合作数据商，平台对关键场次提供了风险提示与交易量占比，增强透明度。</p>
+      <p><strong>资金安全</strong>：平台采用分账模式，用户充值及提现均通过第三方支付通道处理，网站本身不沉淀资金池。建议用户每次操作前确认账户安全环境。</p>
+    </div>
+    <div class="notice-box">
+      ⚠️ 提示：竞彩属于闲暇娱乐行为，请合理规划时间与支出。未满18周岁不得参与。
+    </div>
+  </section>
+
+  <!-- 特点 / 场景 (两列卡片) -->
+  <section>
+    <h2>平台特点速览</h2>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <strong>⚽ 赛事覆盖广</strong>
+        <span>涵盖五大联赛、欧冠、NBA、CBA等主流赛事，同时提供日韩、北欧等二级联赛选项。</span>
+      </div>
+      <div class="feature-item">
+        <strong>📊 数据可视化</strong>
+        <span>部分比赛搭载历史交锋走势图、近期战绩雷达图，辅助用户判断。</span>
+      </div>
+      <div class="feature-item">
+        <strong>🧩 多种玩法</strong>
+        <span>胜平负、让球、比分、总进球、半全场等经典选项均支持，部分场次开放单关。</span>
+      </div>
+      <div class="feature-item">
+        <strong>📱 多端适配</strong>
+        <span>Web端与移动端界面响应迅速，无需下载额外应用，浏览器即可完成全部操作。</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ 摘要 -->
+  <section>
+    <h2>常见疑问摘要</h2>
+    <div class="faq-item">
+      <strong>Q：注册后如何开始？</strong>
+      <p>完成实名认证与绑定银行卡后，即可充值并选择赛事投注。建议先阅读「玩法说明」熟悉规则。</p>
+    </div>
+    <div class="faq-item">
+      <strong>Q：赔率变化频繁吗？</strong>
+      <p>实时更新，尤其在赛前1-2小时波动较大。页面会显示赔率变动时间戳，可据此判断趋势。</p>
+    </div>
+    <div class="faq-item">
+      <strong>Q：是否有客服支持？</strong>
+      <p>站内设有在线客服入口（工作时段9:00-23:00），也可通过帮助中心自助查询。</p>
+    </div>
+  </section>
+
+  <!-- 提示区 + 相关信息区 -->
+  <section>
+    <h2>使用提示</h2>
+    <div class="info-card">
+      <p>• 首次使用建议先浏览「帮助中心」或「新手指南」，了解基础术语与投注流程。</p>
+      <p>• 合理设置单日投注上限，避免因连续失利影响正常生活。平台提供「自我限制」功能。</p>
+      <p>• 注意保护个人账号信息，不要将密码告知他人，谨防钓鱼链接。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>相关信息</h2>
+    <p>
+      如您希望获取更详细的赛事数据与玩法说明，可直接访问 <a href="https://app-web-sporttery.com">竞彩网</a> 首页查阅官方公告。本站点属于非官方介绍页，内容整理自公开资料，仅供学习与参考，不构成任何投资或参与建议。
+    </p>
+    <p>
+      竞彩网也会不定期发布「赛事前瞻」「数据报告」等栏目，帮助用户从更多维度了解比赛背景。建议保持独立思考，理性参与。
+    </p>
+  </section>
+
+  <div class="footer-note">
+    <p>© 知识库式介绍页 · 内容仅供参考 · 请以平台实时信息为准</p>
+  </div>
+
+</div>
+</body>
+</html>
